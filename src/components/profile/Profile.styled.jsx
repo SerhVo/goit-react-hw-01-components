@@ -4,7 +4,7 @@ export const ProfileBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 282px;
+  width: 350px;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 0px 5px 10px #00003030;
@@ -29,13 +29,13 @@ export const Name = styled.p`
 export const Tag = styled.p`
   margin: 8px 0;
   font-weight: 500;
-  color: #00003060;
+  color: #bcc0c4;
 `;
 
 export const Location = styled.p`
   margin-bottom: 30px;
   font-weight: 500;
-  color: #00003060;
+  color: #bcc0c4;
 `;
 
 export const Stats = styled.ul`

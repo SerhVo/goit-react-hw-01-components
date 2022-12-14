@@ -2,9 +2,9 @@ import styled from '@emotion/styled';
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 60px;
-  background-color: #e7ecf2;
-  padding: 50px;
+  gap: 20px;
+  background-color: #bcc0c4;
+  padding: 20px;
 `;
