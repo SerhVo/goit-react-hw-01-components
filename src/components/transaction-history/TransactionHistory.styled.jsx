@@ -1,17 +1,16 @@
 import styled from '@emotion/styled';
 
 export const TableOfTransactionHistory = styled.table`
-  width: 724px;
-  border-radius: 4px;
-  box-shadow: 1px 3px 3px #00002030, -1px 3px 3px #00003030;
+  width: 700px;
+  box-shadow: 2px 2px 8px #000000;
 `;
 
 export const TableHead = styled.thead`
   height: 40px;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
   color: #fff;
-  background-color: #00bcd5;
+  background-color: #19e0fa;
 `;
 
 export const TableHeadRow = styled.tr``;
@@ -19,34 +18,24 @@ export const TableHeadRow = styled.tr``;
 export const TableHeadCell = styled.th`
   width: calc(100% / 3);
   :first-of-type {
-    text-align: left;
-    padding-left: 90px;
+    text-align: center;
   }
 `;
 
 export const TableBody = styled.tbody``;
 
 export const TableRow = styled.tr`
-  height: 40px;
-  background-color: #eeeeee30;
+  height: 30px;
+  background-color: #ededed;
   :nth-of-type(2n + 1) {
     background-color: #fff;
   }
 `;
 
 export const TableCell = styled.td`
-  font-size: 14px;
+  font-size: 12px;
   text-transform: capitalize;
-  color: #00000090;
-  :first-of-type {
-    padding-left: 90px;
-  }
-  :not(:first-of-type) {
-    text-align: right;
-    padding-right: 100px;
-  }
-  :last-of-type {
-    text-align: center;
-    padding: 0;
-  }
+  color: #0000000;
+  text-align: center;
+  
 `;
