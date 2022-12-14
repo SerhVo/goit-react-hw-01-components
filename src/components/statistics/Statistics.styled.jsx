@@ -6,7 +6,7 @@ export const StatSection = styled.section`
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 25px;
 `;
 
 export const Title = styled.h2`
@@ -26,23 +26,17 @@ export const Item = styled.li`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 86px;
-  height: 78px;
+  width: 90px;
+  height: 80px;
   color: #fff;
   background-color: ${props => props.backgroundColor};
-  text-shadow: 1px 1px 4px #00000040;
-  :first-of-type {
-    border-radius: 0 0 0 4px;
-  }
-  :last-of-type {
-    border-radius: 0 0 4px 0;
-  }
+  text-shadow: 1px 1px 5px #00000040;  
 `;
 
 export const Label = styled.span`
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 `;
 
 export const Percentage = styled.span`
-  font-size: 22px;
+  font-size: 30px;
 `;
